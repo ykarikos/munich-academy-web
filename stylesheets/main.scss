@@ -1,6 +1,3 @@
-@import "bourbon/bourbon";
-@import "neat/neat";
-
 @import "_variables";
 
 
@@ -28,5 +25,5 @@ h2 {
       @includes span-columns(9); 
     }
   }
-
 }
+
