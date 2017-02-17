@@ -6,24 +6,13 @@ body {
   color: $primary-color;
   background: $background;
   line-height: $body-line-height;
+  margin: 40px;
+}
+
+h1, h2 {
+  margin-bottom: 2em;
 }
 
 h2 {
   font-size: 1.2em;
 }
-
-@media (min-width: $desktop-min-width) {
-
-  article {
-    @include outer-container;
-
-    h2 { 
-      @include span-columns(3); 
-    }
-    section { 
-      height: $body-line-height*4;
-      @includes span-columns(9); 
-    }
-  }
-}
-
